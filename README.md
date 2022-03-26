@@ -1,6 +1,6 @@
-# Imersão Dev - Temperature Converter
+# Imersão Dev - Currency Converter
 
-This is the solution to Imersão Dev's Temperature Converter Challenge.
+This is the solution to Imersão Dev's Currency Converter Challenge.
 
 ## Table of contents
 
@@ -17,7 +17,7 @@ This is the solution to Imersão Dev's Temperature Converter Challenge.
 
 ### The challenge
 
-The challenge consists in a temperature converter where the user can make the conversion from Celsius to Fahrenheit or Celsius to Kelvin
+The challenge consists in a currency converter where the user can make the conversion from Real(R$) to Dollar($) or Euro(€)
 
 ### Screenshot
 
@@ -25,7 +25,7 @@ The challenge consists in a temperature converter where the user can make the co
 
 ### Links
 
-- Live Site URL: [https://izuca.github.io/imersaoDev-Temperatura/](https://izuca.github.io/imersaoDev-Temperatura/)
+- Live Site URL: [https://izuca.github.io/imersaoDev-Moedas/](https://izuca.github.io/imersaoDev-Moedas/)
 
 ## My process
 
@@ -38,6 +38,25 @@ The challenge consists in a temperature converter where the user can make the co
 
 ### What I learned
 
+- How to make an animated background
+```css
+body { 
+  animation: color 15s ease infinite;
+}
+
+/*Animação "color" referente ao background*/
+@keyframes color{
+  0% {
+    background-position:0% 50%;
+  }
+  50% {
+   background-position:100% 50%;
+  }
+  100% {
+    background-position:0% 50%;
+  }
+}
+```
 - How to show the result on screen using innerHTML
 ```javascript
 //Atribuição da conversão ao elemento de ID "valorConvertido"
